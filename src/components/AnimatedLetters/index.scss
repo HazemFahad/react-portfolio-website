@@ -1,6 +1,6 @@
 .text-animate {
   display: inline-block;
-  opacity: 0;
+  opacity: 0.5;
   animation: bounceIn;
   animation-duration: 1s;
   animation-delay: 1s;
@@ -22,5 +22,11 @@
 @for $i from 1 through 35 {
   .text-animate._#{$i} {
     animation-delay: #{$i / 10}s;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .text-animate {
+    opacity: 1;
   }
 }
