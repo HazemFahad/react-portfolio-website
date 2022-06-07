@@ -26,7 +26,7 @@ const Sidebar = () => {
       {isTabletOrMobile ? (
         <div>
           <nav className="hamburger">
-            <Hamburger color="#264653" toggled={isOpen} toggle={setOpen} />
+            <Hamburger color="#E76F51" toggled={isOpen} toggle={setOpen} />
           </nav>
         </div>
       ) : (
@@ -37,21 +37,21 @@ const Sidebar = () => {
         <div className="miniNavBar">
           <nav>
             <NavLink activeclassname="active" exact="true" to="/">
-              <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+              <FontAwesomeIcon icon={faHome} color="#EB8369" />
             </NavLink>
             <NavLink
               className="about-link"
               activeclassname="active"
               to="/about"
             >
-              <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+              <FontAwesomeIcon icon={faUser} color="#EB8369" />
             </NavLink>
             <NavLink
               className="contact-link"
               activeclassname="active"
               to="/contact"
             >
-              <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+              <FontAwesomeIcon icon={faEnvelope} color="#EB8369" />
             </NavLink>
             <a
               href="https://www.linkedin.com/in/hazem-fahad-414b4486/"
@@ -59,7 +59,7 @@ const Sidebar = () => {
               rel="noreferrer"
               className="linkedin-link"
             >
-              <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+              <FontAwesomeIcon icon={faLinkedin} color="#EB8369" />
             </a>
             <a
               href="https://github.com/squarezy"
@@ -67,7 +67,7 @@ const Sidebar = () => {
               rel="noreferrer"
               className="github-link"
             >
-              <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+              <FontAwesomeIcon icon={faGithub} color="#EB8369" />
             </a>
           </nav>
         </div>
@@ -80,21 +80,21 @@ const Sidebar = () => {
         <div>
           <nav>
             <NavLink exact="true" activeclassname="active" to="/">
-              <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+              <FontAwesomeIcon icon={faHome} color="#EB8369" />
             </NavLink>
             <NavLink
               activeclassname="active"
               className="about-link"
               to="/about"
             >
-              <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+              <FontAwesomeIcon icon={faUser} color="#EB8369" />
             </NavLink>
             <NavLink
               activeclassname="active"
               className="contact-link"
               to="/contact"
             >
-              <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+              <FontAwesomeIcon icon={faEnvelope} color="#EB8369" />
             </NavLink>
           </nav>
           <ul>
@@ -104,7 +104,7 @@ const Sidebar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faLinkedin} color="#EB8369" />
               </a>
             </li>
             <li>
@@ -113,7 +113,7 @@ const Sidebar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faGithub} color="#EB8369" />
               </a>
             </li>
           </ul>
