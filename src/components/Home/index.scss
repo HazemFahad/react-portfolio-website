@@ -1,0 +1,233 @@
+.logoHome {
+  width: 330px;
+  position: relative;
+  opacity: 0.3;
+  z-index: -5;
+  //   background-color: blue;
+}
+
+.imageHolder {
+  height: 400px;
+  position: absolute;
+  right: 0%;
+  top: 140px;
+  z-index: -5;
+  // background-color: red;
+}
+
+.home-page {
+  overflow: hidden;
+  .text-zone {
+    position: relative;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    right: 20px;
+    max-height: 90%;
+  }
+
+  h1 {
+    color: #264653;
+    font-size: 11vw;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    width: auto;
+
+    // min-width: 400px;
+    // display: flex;
+
+    &:before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #264653;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: -15px;
+      opacity: 0.6;
+    }
+
+    &:after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #264653;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+
+    img {
+      margin-left: 20px;
+      margin-bottom: -3px;
+      opacity: 0;
+      width: 50px;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+
+  h2 {
+    color: #264653;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .flat-button {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #264653;
+    background: #264653;
+    border-radius: 5px;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background: #e76f51;
+      color: #fff;
+      border: 1px solid #e76f51;
+    }
+  }
+}
+
+@media screen and (min-width: 510px) {
+  .home-page {
+    h1 {
+      color: #264653;
+      font-size: 56px;
+      line-height: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+      width: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .home-page {
+    // background-color: red;
+    width: auto;
+    .text-zone {
+      // background-color: red;
+
+      // background-color: blue;
+      position: relative;
+      left: 80px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: auto;
+      right: 20px;
+      max-height: 90%;
+    }
+
+    h1 {
+      color: #264653;
+      font-size: 56px;
+      line-height: 53px;
+      margin: 0;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+      width: auto;
+
+      &:before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #264653;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -40px;
+        left: -15px;
+        opacity: 0.6;
+      }
+
+      &:after {
+        content: '<h1/>';
+        font-family: 'La Belle Aurore', cursive;
+        color: #264653;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6;
+      }
+
+      img {
+        margin-left: 20px;
+        margin-bottom: -3px;
+        opacity: 0;
+        width: 50px;
+        height: auto;
+        animation: rotateIn 1s linear both;
+        animation-delay: 1.4s;
+      }
+    }
+
+    h2 {
+      color: #264653;
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 11px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-family: sans-serif;
+      text-decoration: none;
+      padding: 10px 18px;
+      border: 1px solid #264653;
+      background: #264653;
+      border-radius: 5px;
+      margin-top: 25px;
+      float: left;
+      animation: fadeInAnimation 1s 1.8s backwards;
+      white-space: nowrap;
+
+      &:hover {
+        background: #e76f51;
+        color: #fff;
+        border: 1px solid #e76f51;
+      }
+    }
+  }
+  .logoHome {
+    width: 500px;
+    position: absolute;
+    opacity: 0.8;
+    z-index: -5;
+    right: 0;
+    animation: fadeInAnimation 1s 1.8s;
+  }
+
+  .imageHolder {
+    height: 400px;
+    position: absolute;
+    right: 5%;
+    top: 90px;
+    z-index: -5;
+  }
+}
