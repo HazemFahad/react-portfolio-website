@@ -2,12 +2,7 @@ import './index.scss'
 import LogoH from '../../assets/images/H-hweyz.png'
 import LogoSubtitle from '../../assets/images/Text-hweyz.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faLinkedin,
-  faGithub,
-  faYoutube,
-  faSkype,
-} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react'
@@ -37,21 +32,24 @@ const Sidebar = () => {
         <div className="miniNavBar">
           <nav>
             <NavLink activeclassname="active" exact="true" to="/">
-              <FontAwesomeIcon icon={faHome} color="#EB8369" />
+              <FontAwesomeIcon icon={faHome} color="rgba(231, 111, 81, 0.5)" />
             </NavLink>
             <NavLink
               className="about-link"
               activeclassname="active"
               to="/about"
             >
-              <FontAwesomeIcon icon={faUser} color="#EB8369" />
+              <FontAwesomeIcon icon={faUser} color="rgba(231, 111, 81, 0.5)" />
             </NavLink>
             <NavLink
               className="contact-link"
               activeclassname="active"
               to="/contact"
             >
-              <FontAwesomeIcon icon={faEnvelope} color="#EB8369" />
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                color="rgba(231, 111, 81, 0.5)"
+              />
             </NavLink>
             <a
               href="https://www.linkedin.com/in/hazem-fahad-414b4486/"
@@ -59,7 +57,10 @@ const Sidebar = () => {
               rel="noreferrer"
               className="linkedin-link"
             >
-              <FontAwesomeIcon icon={faLinkedin} color="#EB8369" />
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                color="rgba(231, 111, 81, 0.5)"
+              />
             </a>
             <a
               href="https://github.com/squarezy"
@@ -67,7 +68,10 @@ const Sidebar = () => {
               rel="noreferrer"
               className="github-link"
             >
-              <FontAwesomeIcon icon={faGithub} color="#EB8369" />
+              <FontAwesomeIcon
+                icon={faGithub}
+                color="rgba(231, 111, 81, 0.5)"
+              />
             </a>
           </nav>
         </div>
@@ -80,21 +84,24 @@ const Sidebar = () => {
         <div>
           <nav>
             <NavLink exact="true" activeclassname="active" to="/">
-              <FontAwesomeIcon icon={faHome} color="#EB8369" />
+              <FontAwesomeIcon icon={faHome} color="rgba(231, 111, 81, 0.5)" />
             </NavLink>
             <NavLink
               activeclassname="active"
               className="about-link"
               to="/about"
             >
-              <FontAwesomeIcon icon={faUser} color="#EB8369" />
+              <FontAwesomeIcon icon={faUser} color="rgba(231, 111, 81, 0.5)" />
             </NavLink>
             <NavLink
               activeclassname="active"
               className="contact-link"
               to="/contact"
             >
-              <FontAwesomeIcon icon={faEnvelope} color="#EB8369" />
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                color="rgba(231, 111, 81, 0.5)"
+              />
             </NavLink>
           </nav>
           <ul>
@@ -104,7 +111,10 @@ const Sidebar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FontAwesomeIcon icon={faLinkedin} color="#EB8369" />
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  color="rgba(231, 111, 81, 0.5)"
+                />
               </a>
             </li>
             <li>
@@ -113,7 +123,10 @@ const Sidebar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FontAwesomeIcon icon={faGithub} color="#EB8369" />
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  color="rgba(231, 111, 81, 0.5)"
+                />
               </a>
             </li>
           </ul>
