@@ -114,6 +114,15 @@
       }
     }
 
+    a.portfolio-link {
+      padding-left: 30px;
+      padding-right: 30px;
+
+      &:after {
+        content: 'PORTFOLIO';
+      }
+    }
+
     a.linkedin-link {
       padding-left: 30px;
       padding-right: 30px;
@@ -173,7 +182,7 @@
   animation: fadeIn 0.2s 0s;
 }
 
-@media screen and (min-width: 410px) {
+@media screen and (min-width: 500px) {
   .miniNavBar {
     height: 50px;
   }
@@ -277,6 +286,15 @@
         padding-right: 0px;
         &:after {
           content: 'CONTACT';
+        }
+      }
+
+      a.portfolio-link {
+        padding-left: 0px;
+        padding-right: 0px;
+
+        &:after {
+          content: 'PORTFOLIO';
         }
       }
 
