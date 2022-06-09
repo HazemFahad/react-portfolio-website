@@ -7,7 +7,7 @@ import {
   faHome,
   faUser,
   faEnvelope,
-  faBriefcase,
+  // faBriefcase,
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react'
