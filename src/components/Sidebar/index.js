@@ -67,7 +67,7 @@ const Sidebar = () => {
               />
             </NavLink>
             <a
-              href="https://www.linkedin.com/in/hazem-fahad-414b4486/"
+              href="https://www.linkedin.com/in/hazemfahad"
               target="_blank"
               rel="noreferrer"
               className="linkedin-link"
@@ -78,7 +78,7 @@ const Sidebar = () => {
               />
             </a>
             <a
-              href="https://github.com/squarezy"
+              href="https:/github.com/hazemfahad"
               target="_blank"
               rel="noreferrer"
               className="github-link"
@@ -132,7 +132,7 @@ const Sidebar = () => {
           <ul>
             <li>
               <a
-                href="https://www.linkedin.com/in/hazem-fahad-414b4486/"
+                href="https://www.linkedin.com/in/hazemfahad"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -144,7 +144,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://github.com/squarezy"
+                href="https:/github.com/hazemfahad"
                 target="_blank"
                 rel="noreferrer"
               >
